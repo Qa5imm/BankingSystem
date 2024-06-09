@@ -26,7 +26,5 @@ namespace BankingSystem
         }
 
 
-        // Implement setter and getter functions here
-
     }
 }

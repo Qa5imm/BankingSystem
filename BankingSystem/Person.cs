@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankingSystem
 {
-    class Person : ICommon
+    public class Person : ICommon
     {
-        protected string Id { get; set; } = string.Empty;
-        protected string Name { get; set; } = string.Empty;
+        public int Id { get; set; } = 0;
+        public string Name { get; set; } = string.Empty;
         protected string Cnic { get; set; } = string.Empty;
         protected string Address { get; set; } = string.Empty;
         protected string Phone { get; set; } = string.Empty;
@@ -24,7 +24,5 @@ namespace BankingSystem
             Console.WriteLine("Phone: " + Phone);
             Console.WriteLine("Address: " + Address);
         }
-
-
     }
 }

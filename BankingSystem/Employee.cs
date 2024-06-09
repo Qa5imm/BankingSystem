@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BankingSystem
 {
-    class Employee : Person
+    public class Employee : Person
     {
 
         private string JobTitle;
         private int Salary;
-        public Employee(string id, string name, string cnic, string phone, string address, string jobTitle, int salary)
+        public Employee(int id, string name, string cnic, string phone, string address, string jobTitle, int salary)
         {
             Id = id;
             Name = name;
@@ -32,8 +32,5 @@ namespace BankingSystem
             Console.WriteLine("Job Title: " + JobTitle);
             Console.WriteLine("Salary: " + Salary);
         }
-
-
-        // Implement setter and getter functions here
     }
 }

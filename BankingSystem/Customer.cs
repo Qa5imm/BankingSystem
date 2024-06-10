@@ -8,8 +8,13 @@ namespace BankingSystem
 {
     public class Customer : Person
     {
-        private string Email = String.Empty;
         public Account account;
+
+        private string Email
+        {
+            get { return Email; }
+            set { Email = value; }
+        }
 
         public Customer(int id, string name, string cnic, string phone, string address, string email, string accType, int accNumbr)
         {

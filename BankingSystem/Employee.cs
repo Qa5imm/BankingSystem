@@ -8,17 +8,9 @@ namespace BankingSystem
 {
     public class Employee : Person
     {
-        public string JobTitle
-        {
-            get { return JobTitle; }
-            set { JobTitle = value; }
-        }
+        public string JobTitle { get; set; }
 
-        public int Salary
-        {
-            get { return Salary; }
-            set { Salary = value; }
-        }
+        public int Salary { get; set; }
 
 
 

@@ -8,9 +8,21 @@ namespace BankingSystem
 {
     public class Employee : Person
     {
+        public string JobTitle
+        {
+            get { return JobTitle; }
+            set { JobTitle = value; }
+        }
 
-        private string JobTitle;
-        private int Salary;
+        public int Salary
+        {
+            get { return Salary; }
+            set { Salary = value; }
+        }
+
+
+
+
         public Employee(int id, string name, string cnic, string phone, string address, string jobTitle, int salary)
         {
             Id = id;

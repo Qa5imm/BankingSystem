@@ -8,12 +8,21 @@ namespace BankingSystem
 {
     public class Person : ICommon
     {
-        public int Id { get; set; } = 0;
+        public int Id
+        {
+            get { return Id; }
+            set { Id = value; }
+        }
+
         public string Name { get; set; } = string.Empty;
         protected string Cnic { get; set; } = string.Empty;
         protected string Address { get; set; } = string.Empty;
         protected string Phone { get; set; } = string.Empty;
+
         
+
+
+
 
 
         public virtual void display()

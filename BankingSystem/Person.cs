@@ -8,11 +8,7 @@ namespace BankingSystem
 {
     public class Person : ICommon
     {
-        public int Id
-        {
-            get { return Id; }
-            set { Id = value; }
-        }
+        public int Id { get; set; }
 
         public string Name { get; set; } = string.Empty;
         protected string Cnic { get; set; } = string.Empty;
